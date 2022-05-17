@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { ContatoComponent } from './pages/contato/contato.component';
 import { RodapeComponent } from './rodape/rodape.component';
+import { AlimentosComponent } from './pages/alimentos/alimentos.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     ContatoComponent,
-    RodapeComponent
+    RodapeComponent,
+    AlimentosComponent
   ],
   imports: [
     BrowserModule,
