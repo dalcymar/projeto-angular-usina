@@ -7,6 +7,7 @@ import { HeaderComponent } from './header/header.component';
 import { ContatoComponent } from './pages/contato/contato.component';
 import { RodapeComponent } from './rodape/rodape.component';
 import { AlimentosComponent } from './pages/alimentos/alimentos.component';
+import { AutomacaoIndustrialComponent } from './pages/automacao-industrial/automacao-industrial.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { AlimentosComponent } from './pages/alimentos/alimentos.component';
     HeaderComponent,
     ContatoComponent,
     RodapeComponent,
-    AlimentosComponent
+    AlimentosComponent,
+    AutomacaoIndustrialComponent
   ],
   imports: [
     BrowserModule,
