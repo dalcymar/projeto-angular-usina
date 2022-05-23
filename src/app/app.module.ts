@@ -8,6 +8,7 @@ import { ContatoComponent } from './pages/contato/contato.component';
 import { RodapeComponent } from './rodape/rodape.component';
 import { AlimentosComponent } from './pages/alimentos/alimentos.component';
 import { AutomacaoIndustrialComponent } from './pages/automacao-industrial/automacao-industrial.component';
+import { AlteraCorDirective } from './diretives/altera-cor.directive';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { AutomacaoIndustrialComponent } from './pages/automacao-industrial/autom
     ContatoComponent,
     RodapeComponent,
     AlimentosComponent,
-    AutomacaoIndustrialComponent
+    AutomacaoIndustrialComponent,
+    AlteraCorDirective
   ],
   imports: [
     BrowserModule,
