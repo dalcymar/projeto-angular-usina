@@ -9,6 +9,7 @@ import { RodapeComponent } from './rodape/rodape.component';
 import { AlimentosComponent } from './pages/alimentos/alimentos.component';
 import { AutomacaoIndustrialComponent } from './pages/automacao-industrial/automacao-industrial.component';
 import { AlteraCorDirective } from './diretives/altera-cor.directive';
+import { PageHomeComponent } from './pages/page-home/page-home.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { AlteraCorDirective } from './diretives/altera-cor.directive';
     RodapeComponent,
     AlimentosComponent,
     AutomacaoIndustrialComponent,
-    AlteraCorDirective
+    AlteraCorDirective,
+    PageHomeComponent
   ],
   imports: [
     BrowserModule,

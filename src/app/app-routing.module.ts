@@ -3,8 +3,13 @@ import { RouterModule, Routes } from '@angular/router';
 import { AlimentosComponent } from './pages/alimentos/alimentos.component';
 import { AutomacaoIndustrialComponent } from './pages/automacao-industrial/automacao-industrial.component';
 import { ContatoComponent } from './pages/contato/contato.component';
+import { PageHomeComponent } from './pages/page-home/page-home.component';
 
 const routes: Routes = [
+  {
+    path: '',
+    component: PageHomeComponent
+  },
   {
     path: 'contato',
     component: ContatoComponent
