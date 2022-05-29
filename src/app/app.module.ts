@@ -10,6 +10,7 @@ import { AlimentosComponent } from './pages/alimentos/alimentos.component';
 import { AutomacaoIndustrialComponent } from './pages/automacao-industrial/automacao-industrial.component';
 import { AlteraCorDirective } from './diretives/altera-cor.directive';
 import { PageHomeComponent } from './pages/page-home/page-home.component';
+import { AutomacaoResidencialComponent } from './pages/automacao-residencial/automacao-residencial.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { PageHomeComponent } from './pages/page-home/page-home.component';
     AlimentosComponent,
     AutomacaoIndustrialComponent,
     AlteraCorDirective,
-    PageHomeComponent
+    PageHomeComponent,
+    AutomacaoResidencialComponent
   ],
   imports: [
     BrowserModule,

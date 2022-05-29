@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AlimentosComponent } from './pages/alimentos/alimentos.component';
 import { AutomacaoIndustrialComponent } from './pages/automacao-industrial/automacao-industrial.component';
+import { AutomacaoResidencialComponent } from './pages/automacao-residencial/automacao-residencial.component';
 import { ContatoComponent } from './pages/contato/contato.component';
 import { PageHomeComponent } from './pages/page-home/page-home.component';
 
@@ -21,6 +22,10 @@ const routes: Routes = [
   {
     path: 'automacao-industrial',
     component: AutomacaoIndustrialComponent
+  },
+  {
+    path: 'automacao-residencial',
+    component: AutomacaoResidencialComponent
   }
 ];
 
