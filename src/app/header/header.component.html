@@ -1,87 +1,90 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-success">
-    <div class="container">
-        <a class="navbar-brand" href="#">
-            <img src="assets/images/metsop.jpg" height="64px" width="64" alt="dalcy" class="rounded-circle">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-    </div>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mr-lg-3 mb-lg-0">
-            <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">
-                    Dalcy-Automation
-                    <i class="fas fa-home"></i>
-                </a>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-                    aria-expanded="false">
-                    Segmentos
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a appAlteraCor class="dropdown-item" routerLink="alimentos">
-                        <i class="fas fa-heartbeat"></i>
-                        Alimentos
+<div class="header">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="assets/images/metsop.jpg" height="64px" width="64" alt="dalcy" class="rounded-circle">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mr-lg-3 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">
+                        Dalcy-Automation
+                        <i class="fas fa-home"></i>
                     </a>
-                    <a appAlteraCor class="dropdown-item" routerLink="automacao-industrial">
-                        <i class="fas fa-industry"></i>    
-                        Automação Industrial
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Segmentos
                     </a>
-                    <a appAlteraCor class="dropdown-item" href="#">
-                        <i class="fas fa-warehouse"></i>
-                        Industrias de Óleos Vegetais e Biodiesel
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a appAlteraCor class="dropdown-item" routerLink="alimentos">
+                            <i class="fas fa-heartbeat"></i>
+                            Alimentos
+                        </a>
+                        <a appAlteraCor class="dropdown-item" routerLink="automacao-industrial">
+                            <i class="fas fa-industry"></i>
+                            Automação Industrial
+                        </a>
+                        <a appAlteraCor class="dropdown-item" href="#">
+                            <i class="fas fa-warehouse"></i>
+                            Industrias de Óleos Vegetais e Biodiesel
+                        </a>
+                        <a appAlteraCor class="dropdown-item" routerLink="automacao-residencial">
+                            <i class="fas fa-lightbulb"></i>
+                            Automação Residencial
+                        </a>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Produtos
                     </a>
-                    <a appAlteraCor class="dropdown-item" routerLink="automacao-residencial">
-                        <i class="fas fa-lightbulb"></i>
-                        Automação Residencial
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a appAlteraCor class="dropdown-item" href="#">Infraestrutura de Redes</a>
+                        <a appAlteraCor class="dropdown-item" href="#">Segurança Cibernética</a>
+                        <a appAlteraCor class="dropdown-item" href="#">Transformação Digital</a>
+                        <a appAlteraCor class="dropdown-item" href="#">Conectividade Industrial</a>
+                        <a appAlteraCor class="dropdown-item" href="#">Testes e Medição</a>
+                        <a appAlteraCor class="dropdown-item" href="#">Fabricantes</a>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Serviços
                     </a>
-                </ul>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-                    aria-expanded="false">
-                    Produtos
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a appAlteraCor class="dropdown-item" href="#">Infraestrutura de Redes</a>
-                    <a appAlteraCor class="dropdown-item" href="#">Segurança Cibernética</a>
-                    <a appAlteraCor class="dropdown-item" href="#">Transformação Digital</a>
-                    <a appAlteraCor class="dropdown-item" href="#">Conectividade Industrial</a>
-                    <a appAlteraCor class="dropdown-item" href="#">Testes e Medição</a>
-                    <a appAlteraCor class="dropdown-item" href="#">Fabricantes</a>
-                </ul>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-                    aria-expanded="false">
-                    Serviços
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a appAlteraCor class="dropdown-item" href="#">Assistência Técnica</a>
-                    <a appAlteraCor class="dropdown-item" href="#">Caldeiraria</a>
-                    <a appAlteraCor class="dropdown-item" href="#">Manutenção, Reforma e Modernização</a>
-                    <a appAlteraCor class="dropdown-item" href="#">Montagem Industrial</a>
-                </ul>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-                    aria-expanded="false">
-                    Parceiros Tecnologicos
-                </a>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-                    aria-expanded="false">
-                    Contato
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a appAlteraCor class="dropdown-item" routerLink="contato">Entre em contato</a>
-                    <a appAlteraCor class="dropdown-item" href="#">Trabalhe Conosco</a>
-                </div>
-            </li>
-        </ul>
-    </div>
-</nav>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a appAlteraCor class="dropdown-item" href="#">Assistência Técnica</a>
+                        <a appAlteraCor class="dropdown-item" href="#">Caldeiraria</a>
+                        <a appAlteraCor class="dropdown-item" href="#">Manutenção, Reforma e Modernização</a>
+                        <a appAlteraCor class="dropdown-item" href="#">Montagem Industrial</a>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Parceiros Tecnologicos
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Contato
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a appAlteraCor class="dropdown-item" routerLink="contato">Entre em contato</a>
+                        <a appAlteraCor class="dropdown-item" href="#">Trabalhe Conosco</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</div>
